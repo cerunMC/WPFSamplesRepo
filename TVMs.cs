@@ -31,3 +31,16 @@
                     </HierarchicalDataTemplate>
                 </TreeView.ItemTemplate>
             </TreeView>
+
+
+
+ public RelayCommand<object> SelectItemCommand { get; private set; }
+ 
+ 
+  private void OnSelectedItem(object Content)
+  {
+      if (Content is DataContext.Content c && c.Parent is ExplorerObjViewModel eovm)
+      {
+          eovm.PublishContentView(c);
+      }
+  }
