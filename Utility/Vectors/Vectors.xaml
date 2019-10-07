@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate x:Key="glyphicon-remove">
+        <Viewbox Height="12">
+            <Path
+                Data="M904 1083l178 -179q8 -8 8 -18.5t-8 -17.5l-267 -268l267 -268q8 -7 8 -17.5t-8 -18.5l-178 -178q-8 -8 -18.5 -8t-17.5 8l-268 267l-268 -267q-7 -8 -17.5 -8t-18.5 8l-178 178q-8 8 -8 18.5t8 17.5l267 268l-267 268q-8 7 -8 17.5t8 18.5l178 178q8 8 18.5 8t17.5 -8 l268 -267l268 268q7 7 17.5 7t18.5 -7z"
+                Fill="#ff7961"
+                Focusable="False"
+                RenderOptions.CachingHint="Cache"
+                SnapsToDevicePixels="True"
+                Stroke="Black"
+                StrokeThickness="50" />
+        </Viewbox>
+    </DataTemplate>
+
+    <Viewbox x:Key="Testakon" Height="12">
+        <Path
+            Data="M904 1083l178 -179q8 -8 8 -18.5t-8 -17.5l-267 -268l267 -268q8 -7 8 -17.5t-8 -18.5l-178 -178q-8 -8 -18.5 -8t-17.5 8l-268 267l-268 -267q-7 -8 -17.5 -8t-18.5 8l-178 178q-8 8 -8 18.5t8 17.5l267 268l-267 268q-8 7 -8 17.5t8 18.5l178 178q8 8 18.5 8t17.5 -8 l268 -267l268 268q7 7 17.5 7t18.5 -7z"
+            Fill="#ff7961"
+            Focusable="False"
+            RenderOptions.CachingHint="Cache"
+            SnapsToDevicePixels="True"
+            Stroke="Black"
+            StrokeThickness="50" />
+    </Viewbox>
+
+</ResourceDictionary>
